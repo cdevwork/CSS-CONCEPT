@@ -23,5 +23,33 @@ border: 5px solid burlywood;
   color: black;
 }
 body {
-  background-color:blanchedalmond;
+  background-color:lightblue;
+}
+div {
+  background-color: #FFCC00;
+}
+div {
+  background: linear-gradient(to right,red, yellow);
+}
+div {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+p.normal {
+  border: 2px solid red;
+  padding: 5px;
+}
+div {
+  background-color: lightgray;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+button:focus {
+  outline: 3px dashed green;
+}
+div {
+  text-align: justify;
 }

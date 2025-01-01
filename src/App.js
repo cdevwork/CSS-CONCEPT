@@ -74,6 +74,7 @@ function FilterableProductTable({ products }) {
     <div className="search">
       <SearchBar />
       <ProductTable products={products} />
+      
     </div>
   );
 }
